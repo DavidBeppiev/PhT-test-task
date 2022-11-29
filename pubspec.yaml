@@ -27,15 +27,15 @@ flutter:
 
   uses-material-design: true
 
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/images/
+#    - images/a_dot_ham.jpeg
 
   fonts:
     - family: JosefinSans
       fonts:
-        - asset: fonts/JosefinSans-Regular.ttf
-        - asset: fonts/JosefinSans-Italic.ttf
-           style: italic
-        - asset: fonts/JosefinSans-Bold.ttf
-            style: bold
+        - asset: assets/fonts/JosefinSans-Regular.ttf
+        - asset: assets/fonts/JosefinSans-Italic.ttf
+          style: italic
+        - asset: assets/fonts/JosefinSans-Bold.ttf
+          weight: 900
