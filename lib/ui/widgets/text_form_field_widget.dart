@@ -1,5 +1,6 @@
 import 'package:fhysical_transformation/bloc/cubit/show%20hide%20password/show_hide_password_cubit.dart';
 import 'package:fhysical_transformation/data/constants/my_colors.dart';
+import 'package:fhysical_transformation/data/constants/my_strings.dart';
 import 'package:fhysical_transformation/data/constants/my_styles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -22,6 +23,11 @@ class TextFormWidget extends StatelessWidget {
           return BlocBuilder<ShowHidePasswordCubit, bool>(
             builder: (context, isHideState) {
               return TextFormField(
+                validator: (value) {
+                  if (value == null || value.isEmpty) {
+                    return MyStrings.requiredField;
+                  }
+                },
                 decoration: InputDecoration(
                     suffixIcon: isPassword
                         ? IconButton(

@@ -24,7 +24,7 @@ class CustomDefaultButton extends StatelessWidget {
             ),
           ),
           onPressed: onPressed,
-          child: Text(text.toUpperCase(), style: MyStyles.tsCSharkFS26, )),
+          child: Text(text.toUpperCase(), style: MyStyles.tsCSharkFS26,)),
     );
   }
 }
