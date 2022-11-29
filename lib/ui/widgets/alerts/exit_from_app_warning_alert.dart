@@ -10,7 +10,7 @@ void exitAppAlert(BuildContext context) {
     titleStyle: MyStyles.tsCSharkFS26,
     color: Colors.white,
     titleAlign: TextAlign.center,
-    title: MyTexts.confirmToExitApp,
+    title: MyStrings.confirmToExitApp,
     lottieBuilder: Lottie.asset(
       'assets/animations/an_alert.json',
       fit: BoxFit.contain,
@@ -22,12 +22,12 @@ void exitAppAlert(BuildContext context) {
           Expanded(
               child: MyCustomAlertButton(
             onPressed: () => SystemNavigator.pop(),
-            text: MyTexts.yes,
+            text: MyStrings.yes,
           )),
           const SizedBox(
             width: 7.0,
           ),
-          Expanded(child: MyCustomAlertButton(onPressed: () => Navigator.pop(context), text: MyTexts.no))
+          Expanded(child: MyCustomAlertButton(onPressed: () => Navigator.pop(context), text: MyStrings.no))
         ],
       )
     ],

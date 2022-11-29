@@ -1,5 +1,6 @@
 import 'package:fhysical_transformation/data/constants/my_colors.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 abstract class MyStyles {
   static const tsCIronFS34 = TextStyle(
@@ -28,4 +29,7 @@ abstract class MyStyles {
       fontFamily: 'JosefinSans',
       color: MyColors.lightningYellow,
       fontSize: 22,);
+
+  static const tsCBlueFS18 =
+  TextStyle(color: Colors.blue, fontSize: 18, letterSpacing: 1.1);
 }
