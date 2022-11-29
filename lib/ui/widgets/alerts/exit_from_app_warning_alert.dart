@@ -7,7 +7,7 @@ import 'package:material_dialogs/material_dialogs.dart';
 
 void exitAppAlert(BuildContext context) {
   Dialogs.materialDialog(
-    titleStyle: MyStyles.tsCsharkFS26,
+    titleStyle: MyStyles.tsCSharkFS26,
     color: Colors.white,
     titleAlign: TextAlign.center,
     title: MyTexts.confirmToExitApp,

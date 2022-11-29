@@ -20,6 +20,6 @@ class MyCustomAlertButton extends StatelessWidget {
           ),
         ),
         onPressed: () => onPressed(),
-        child: Text(text.toUpperCase(), style: MyStyles.tsClightningYellowFS18));
+        child: Text(text.toUpperCase(), style: MyStyles.tsCLightningYellowFS18));
   }
 }

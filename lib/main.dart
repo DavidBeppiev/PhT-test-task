@@ -1,4 +1,4 @@
-import 'package:fhysical_transformation/ui/pages/initial_page.dart';
+import 'package:fhysical_transformation/ui/pages/login_page.dart';
 import 'package:fhysical_transformation/data/constants/my_colors.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         scaffoldBackgroundColor: MyColors.sharkColor
       ),
-      home: const InitialPage(),
+      home: LoginPage(),
     );
   }
 }
