@@ -52,7 +52,7 @@ class LoginPage extends StatelessWidget {
                       child: Column(
                         children: [
                           TextFormWidget(
-                            hintText: MyStrings.loginNameEmail,
+                            hintText: MyStrings.name,
                             textController: nameController,
                             isPassword: false,
                           ),

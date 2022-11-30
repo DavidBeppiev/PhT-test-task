@@ -5,7 +5,6 @@ abstract class MyStrings {
   static const confirmToExitApp = 'Do you really want out of the app?';
 
   static const signIn = 'Sign in';
-  static const loginNameEmail = 'name or email';
   static const password = 'password';
   static const next = 'next';
   static const dontHaveAcc = 'Don\'t have an account?';
