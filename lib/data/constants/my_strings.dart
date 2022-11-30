@@ -15,4 +15,5 @@ abstract class MyStrings {
   static const name = 'name';
 
   static const requiredField = 'field is required';
+  static const successfulRegistration = 'successful registration!!!!';
 }

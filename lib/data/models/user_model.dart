@@ -5,13 +5,16 @@ part 'user_model.g.dart';
 @HiveType(typeId: 1)
 class User {
   @HiveField(0)
-  String name;
+  int id;
 
   @HiveField(1)
-  String email;
+  String name;
 
   @HiveField(2)
+  String email;
+
+  @HiveField(3)
   String password;
 
-  User({required this.email, required this.name, required this.password});
+  User({required this.id, required this.email, required this.name, required this.password});
 }
